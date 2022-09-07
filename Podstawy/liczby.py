@@ -1,5 +1,4 @@
 # dużo fajnych rzeczy stąd jest
-from math import *
 
 # IV Liczby całkowite i rzeczywiste
 
