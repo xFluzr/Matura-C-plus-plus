@@ -1,0 +1,1 @@
+Ilosc liczb ktore tak samo sie zaczynaja i koncza: 18
