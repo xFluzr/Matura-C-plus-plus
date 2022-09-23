@@ -1,1 +1,9 @@
+Zadanie 4.1
+Pierwsza liczba w pliku:93639
 Ilosc liczb ktore tak samo sie zaczynaja i koncza: 18
+
+Zadanie4.2
+Liczba ktora ma najwiecej czynnikow pierwszych:99792
+Liczba tych czynnikow:10
+Liczba ktora ma maks roznych czynnikow:62790
+Maks czynnikow roznych:6
