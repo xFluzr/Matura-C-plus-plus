@@ -128,7 +128,7 @@ def zad4_3():
 
         print(f"Ilosc trojek:{len(liczba_trojek)}")
         print(f"ILosc piatek{len(liczba_piatek)}")
-        
+
         with open("trojki.txt","w")as odp:
             for i in range(0,len(liczba_trojek)):
                 for j in range(0,len(liczba_trojek[i])):
