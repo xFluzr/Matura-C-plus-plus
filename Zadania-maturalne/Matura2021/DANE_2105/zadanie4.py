@@ -1,32 +1,30 @@
-def obliczanie_neonu(instrukcja,literaBadzCyfra,iteracja,neon):
-    iteracja=int(iteracja)
-    if instrukcja=='DOPISZ':
-        neon.append(literaBadzCyfra)
-        iteracja+=1
-    elif instrukcja=='ZMIEN':
-        neon[iteracja]=literaBadzCyfra
-    elif instrukcja=='USUN':
-        neon.pop(iteracja)
-        iteracja=iteracja-1
-    elif instrukcja=="PRZESUN":
-        for i in range(0,len(neon)):
-           if literaBadzCyfra==neon[i]:
-               neon[i]=ord(literaBadzCyfra)+1
-               neon[i]=chr(neon[i])
-    return neon
-
-
+def obliczanie_dlugosci_neonu(instrukcja,dlugosc):
+    if instrukcja=="DOPISZ":
+        dlugosc+=1
+    elif instrukcja=="USUN":
+        dlugosc-=1
+    return dlugosc
 def zad4_1():
-    neon = []
-    with open("przyklad.txt","r") as plik:
-        i=0
+    with open("instrukcje.txt","r") as plik:
+        dlugosc=0
         for line in plik:
             line=line.strip()
             dane=line.split(" ")
-            obliczanie_neonu(dane[0],dane[1],i,neon)
-        print(neon)
-        print(len(neon))
+            dlugosc=obliczanie_dlugosci_neonu(dane[0],dlugosc)
+        with open("wyniki4.txt","w") as odp:
+            odp.write(f"Zad 4.1) \nDlugosc neonu:{dlugosc}")
+
+def zad4_2():
+    with open("przyklad.txt", "r") as plik:
+        instrukcje=[]
+        chiwlowaInstrukcja=""
+        for line in plik:
+            line=line.strip()
+            dane=line.split(" ")
+            instrukcje.append(dane[0])
+        
 
 
 
 zad4_1()
+zad4_2()

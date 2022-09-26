@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41c0791f-b0e2-4a75-88fd-b82c95ffc317" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadania-maturalne/Matura2022/Dane_2205/zadanie4.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania-maturalne/Matura2022/Dane_2205/zadanie4.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania-maturalne/Matura2021/DANE_2105/zadanie4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania-maturalne/Matura2021/DANE_2105/zadanie4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       <recent name="C:\Users\Jakub\Desktop\Matura-python\Zaawansowane" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ZamianaAsciiString">
+  <component name="RunManager" selected="Python.zadanie4">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Matura-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,8 +179,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ZamianaAsciiString" />
         <item itemvalue="Python.zadanie4" />
+        <item itemvalue="Python.ZamianaAsciiString" />
         <item itemvalue="Python.zadanie4.1" />
         <item itemvalue="Python.czytanie_zapisywanie_plikow (1)" />
         <item itemvalue="Python.czytanie_zapisywanie_plikow" />
