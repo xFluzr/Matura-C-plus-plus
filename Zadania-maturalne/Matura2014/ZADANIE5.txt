@@ -1,0 +1,28 @@
+Zadanie a)
+Ilosc pierwszych w pliku: 122
+
+Zadanie b)
+Napisy Rosnace:
+FHJLMU
+BEJNOSY
+MNS
+AEIOUY
+BDL
+JT
+BJQR
+AHJS
+FHJLMU
+DIT
+CEGKZ
+BCV
+CEGIKOT
+CEGKZ
+
+Zadanie c)
+Napisy wystepujace wiecej niz jeden raz:
+FHJLMU
+GC
+QULA
+CEGKZ
+BZYFFLOICLUNWLTH
+SWIFT

@@ -17,12 +17,34 @@ def zad4_1():
 def zad4_2():
     with open("przyklad.txt", "r") as plik:
         instrukcje=[]
-        chiwlowaInstrukcja=""
+        max=1
+        chwilowyMax=1
+        chwilowaInstr=""
+        maxInstr=""
         for line in plik:
             line=line.strip()
             dane=line.split(" ")
             instrukcje.append(dane[0])
-        
+        for i in range(0,len(instrukcje)):
+            if i>0:
+                if instrukcje[i]==instrukcje[i-1] or instrukcje[i]:
+                    chwilowyMax+=1
+                    chwilowaInstr = instrukcje[i]
+                    maxInstr=instrukcje[i]
+                    max = chwilowyMax
+                else:
+                    chwilowyMax=0
+                    chwilowaInstr=""
+            else:
+                chwilowyMax=1
+                chwilowaInstr=instrukcje[i]
+                continue
+
+
+        print(maxInstr,max)
+
+
+
 
 
 
