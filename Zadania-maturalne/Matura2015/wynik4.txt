@@ -1,0 +1,8 @@
+a)
+Ilosc wiekszosci z zerem:422
+
+b)
+Podzielnych przez 2:500, Podzielnych przez 8: 123
+c)
+Indeks liczby najwiekszej: 925
+Indeks liczby najmniejszej: 859
